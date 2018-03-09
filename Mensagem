@@ -1,0 +1,34 @@
+
+public  abstract class Mensagem {
+   
+    private String rementente;
+    private  WTTextual destinatario;
+    protected String conteudo;
+    private  String opcao;
+    
+    
+    
+    
+    public String getRementente() {
+		return rementente;
+	}
+	public void setRementente(String rementente) {
+		this.rementente = rementente;
+	}
+	public WTTextual getDestinatario() {
+		return WTTextual.getNikcName;
+	}
+	public void setDestinatario(WTTextual destinatario) {
+		this.destinatario = destinatario;
+	}
+	public String getConteudo() {
+		return conteudo;
+	}
+	public void setConteudo(String conteudo) {
+		this.conteudo = conteudo;
+	}
+     
+}   
+    
+  
+    
