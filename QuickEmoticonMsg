@@ -1,0 +1,77 @@
+
+public class   QuickEmoticonMsg extends Mensagem     {
+    public String smile_face;
+    public String sad_face;
+    public String Suprise_face;
+    public String heart;
+    public String  crying_face;  
+    private  String opcao;
+	
+    
+    
+    
+    public String getSmile_face() {
+		return smile_face;
+	}
+	public String getSad_face() {
+		return sad_face;
+	}
+	public String getSuprise_face() {
+		return Suprise_face;
+	}
+	public String getHeart() {
+		return heart;
+	}
+	public String getCrying_face() {
+		return crying_face;
+	}
+    public void setSmile_face(String smile_face) {
+		this.smile_face = ":D";
+	}
+	public void setSad_face(String sad_face) {
+		this.sad_face = ":/";
+	}
+	public void setSuprise_face(String suprise_face) {
+		Suprise_face = "T-T";
+	}
+	public void setHeart(String heart) {
+		this.heart = "<3";
+	}
+	public void setCrying_face(String crying_face) {
+		this.crying_face = ":O";
+	}
+    
+    
+    
+  public QuickEmotioconMsg(remetente,destinatario,opcao){
+      
+  }
+   
+    public String selecionarOpc(opcao){
+      if (opcao == "1" ){
+          System.out.print( getSad_face() );
+     
+           }if(opcao=="2"){
+          System.out.print( getCrying_face());
+           }if(opcao=="3"){
+          System.out.print( getSuprise_face()); 
+           }
+           if(opcao=="4"){
+          System.out.print(getHeart() ); 
+           }
+           System.out.print(getSmile_face() );
+        return null;
+          
+          
+          
+          
+          
+          
+      
+    
+      
+    
+    
+    
+}
+}
