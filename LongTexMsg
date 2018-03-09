@@ -1,0 +1,6 @@
+public class LongTextMsg extends Mensagem {
+    
+    public LongTexMsg(remetente,destinatario,texto){
+        
+    }
+}
