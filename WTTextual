@@ -1,0 +1,106 @@
+public class WTTextual {
+
+    static WTTextual getNiknName;
+    private String nickName;
+    private boolean estaOnline;
+    private String msgAtual;
+    
+    
+    
+       public String getNickName() {
+		return nickName;
+	}
+	public void setNickname(String nickName) {
+		this.nickName = nickName;
+	}
+	public boolean isEstaOnline() {
+		return estaOnline;
+	}
+	public void setEstaOnline(boolean estaOnline) {
+		this.estaOnline = estaOnline;
+	}
+	public String getMsgAtual() {
+		return msgAtual;
+	}
+	public void setMsgAtual(String msgAtual) {
+		this.msgAtual = msgAtual;
+	}
+	public WTTextual(String nickname){
+        this.nickName = nickname;
+       
+    
+    }   
+public void enviarMsg( Boolean WTTextualDest,int opc){
+    if(WTTextualDest==estaOnline){
+        System.out.println(getNickName() );
+        receberMsg();
+    }
+        
+    }
+
+    private void receberMsg() {
+       
+    }
+
+public void enviarMsg( boolean WTTextualDest,String txt){
+     if(WTTextualDest==estaOnline()){
+        System.out.println(getNickName() );
+        receberMsg();
+    }
+}
+public void conectar(){
+    setEstaOnline(true);
+    
+}
+    
+
+ public  void desconectar() {
+        setEstaOnline(false);
+        
+}
+public String verStatus(String setNickName){
+        if (estaOnline()==true){
+            System.out.println(setNickName + " " + "esta Online :)");   
+    
+}else{
+   System.out.println(setNickName + " " + "esta offline :(");         
+ 
+        
+        
+  }
+        return null;
+}
+
+    private boolean estaOnline() {
+       if (estaOnline==true){
+           
+       }
+        return false;
+           
+       } 
+    }
+   
+        
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
